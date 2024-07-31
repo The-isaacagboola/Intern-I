@@ -1,6 +1,11 @@
 .logo {
   font-family: var(--font-lobster);
   font-weight: 400;
+  transition: 0.2s ease-in-out;
+}
+.logo:hover {
+  cursor: pointer;
+  scale: 110%;
 }
 
 .logo span {

@@ -8,7 +8,7 @@ export default function Nav() {
       <nav className={styles.nav}>
         <Logo ftSize={"24px"} />
 
-        <ul>
+        <ul className={styles.links}>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -26,7 +26,7 @@ export default function Nav() {
           </li>
         </ul>
 
-        <ul>
+        <ul className={styles.medialinks}>
           <li>
             <Link to="/">
               <FaFacebookF size={22} />

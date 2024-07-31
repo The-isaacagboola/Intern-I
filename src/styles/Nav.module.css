@@ -6,6 +6,10 @@
 .logo span {
   color: var(--clr-orange);
 }
+.nav-container {
+  padding: 40px 0;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+}
 
 .nav {
   display: flex;
@@ -17,12 +21,21 @@
   display: flex;
   list-style: none;
   text-decoration: none;
+  align-items: center;
 }
 .nav ul a {
   text-decoration: none;
   color: var(--clr-black);
 }
 
-.nav ul:first-child {
+.nav .links li a:hover {
+  color: rgb(165 162 162);
+}
+
+.nav .links {
   gap: 60px;
+}
+
+.nav .medialinks {
+  gap: 40px;
 }

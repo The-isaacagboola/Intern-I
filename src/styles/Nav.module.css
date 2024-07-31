@@ -1,8 +1,28 @@
-.logo{
-    font-family: var(--font-lobster);
-
+.logo {
+  font-family: var(--font-lobster);
+  font-weight: 400;
 }
 
-.logo span{
-    color: var(--clr-orange)
+.logo span {
+  color: var(--clr-orange);
+}
+
+.nav {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.nav ul a {
+  text-decoration: none;
+  color: var(--clr-black);
+}
+
+.nav ul:first-child {
+  gap: 60px;
 }

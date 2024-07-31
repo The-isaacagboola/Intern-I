@@ -44,6 +44,7 @@
   width: fit-content;
   border-radius: 30px;
   box-shadow: 10px 20px 40px 0px hsla(192, 26%, 22%, 0.1);
+  margin-top: 8px;
   margin-bottom: 12px;
 }
 .hero-section .text-section > div:first-child img {

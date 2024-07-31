@@ -8,6 +8,8 @@
   --clr-black: hsla(0, 0%, 0%, 1);
   --clr-green: hsla(191, 85%, 95%, 1);
   --clr-ash: hsla(0, 0%, 0%, 0.6);
+  --clr-favs: hsla(0, 100%, 69%, 1);
+  --clr-fav-ash: hsla(198, 16%, 88%, 1);
 }
 
 /* CSS RESET */

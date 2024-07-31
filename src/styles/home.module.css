@@ -55,20 +55,32 @@
   z-index: -1;
 }
 
-.products-heading {
-  display: flex;
+/* Learn More Section */
+.learn-more {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  justify-items: flex-end;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 96px;
+  margin-bottom: 160px;
 }
-.products-heading h2 {
-  font-weight: 600;
+.learn-more h3 {
   font-size: 48px;
+  font-weight: 600;
   margin-bottom: 24px;
 }
-.products-heading p {
-  text-align: center;
+.learn-more p {
   color: var(--clr-ash);
-  max-width: 700px;
+  margin-bottom: 70px;
+}
+.learn-more button {
+  padding: 21px 52px;
+  color: white;
+  background-color: black;
+  border-radius: 16px;
+}
+.learn-more > img {
+  width: 720px;
+}
+.learn-more > div {
+  max-width: 546px;
 }

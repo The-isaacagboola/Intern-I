@@ -1,0 +1,18 @@
+/* Products */
+.products-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 96px;
+}
+.products-heading h2 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.products-heading p {
+  text-align: center;
+  color: var(--clr-ash);
+  max-width: 700px;
+}

@@ -1,0 +1,58 @@
+.recipe-section {
+  padding: 160px 80px;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 40px;
+  margin-bottom: 140px;
+  justify-content: center;
+  justify-items: center;
+}
+.product {
+  display: grid;
+  position: relative;
+  grid-template-rows: 0.6fr 0.3fr;
+  cursor: pointer;
+  gap: 16px;
+  max-height: 434px;
+  border-radius: 30px;
+  width: 290px;
+}
+.product > img {
+  height: 200px;
+  border-radius: 20px;
+}
+.product > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.product .category {
+  display: flex;
+  gap: 24px;
+}
+.product .category > * {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--clr-ash);
+  font-size: 14px;
+  font-weight: 500;
+}
+.product .favorite {
+  color: var(--clr-fav-ash);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: white;
+  right: 16px;
+  top: 16px;
+}
+.product .favorite:hover svg {
+  fill: var(--clr-favs);
+}

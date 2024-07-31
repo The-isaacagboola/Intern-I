@@ -1,5 +1,6 @@
 .instagram-section {
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+  padding: 0 80px 80px 80px;
 }
 .container {
   display: grid;
@@ -117,7 +118,7 @@
   color: hsla(0, 0%, 0%, 0.4);
 }
 .instagram-section .visitBtn {
-  margin: 80px auto;
+  margin: 80px auto 0 auto;
   padding: 19px 32px;
   display: flex;
   align-items: center;

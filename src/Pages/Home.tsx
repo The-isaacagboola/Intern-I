@@ -5,6 +5,7 @@ import ProductsDisplay from "../Components/ProductsDisplay.tsx";
 import chef from "../assets/Group 880.png";
 import InstagramSection from "../Components/InstagramSection.tsx";
 import SectionHeading from "../Components/sectionHeading.tsx";
+import RecipeSection from "../Components/RecipeSection.tsx";
 
 export default function Home() {
   const firstHeading = "Simple and tasty recipes";
@@ -34,9 +35,10 @@ export default function Home() {
           </div>
           <img src={chef} alt="chef" />
         </div>
-
-        <InstagramSection />
       </div>
+      <InstagramSection />
+
+      <RecipeSection />
     </div>
   );
 }

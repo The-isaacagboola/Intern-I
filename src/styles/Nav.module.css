@@ -1,0 +1,8 @@
+.logo{
+    font-family: var(--font-lobster);
+
+}
+
+.logo span{
+    color: var(--clr-orange)
+}

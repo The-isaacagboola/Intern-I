@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import styles from "../styles/Nav.module.css";
+import styles from "../styles/componentStyles/Nav.module.css";
 export default function Nav() {
   return (
     <div className={styles["nav-container"]}>
@@ -13,7 +13,7 @@ export default function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Recipes</Link>
+            <Link to="/recipes">Recipes</Link>
           </li>
           <li>
             <Link to="/">Blog</Link>
@@ -28,17 +28,17 @@ export default function Nav() {
 
         <ul className={styles.medialinks}>
           <li>
-            <Link to="/">
+            <Link to="https://web.facebook.com/profile.php?id=100008521230306&_rdc=1&_rdr">
               <FaFacebookF size={22} />
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/https://x.com/the_isaacagbola">
               <FaTwitter size={22} />
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="https://github.com/The-isaacagboola">
               <FaInstagram size={22} />
             </Link>
           </li>

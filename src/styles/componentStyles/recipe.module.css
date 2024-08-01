@@ -1,13 +1,28 @@
 .recipe-section {
-  padding: 160px 80px;
+  padding: 160px 0;
+}
+.recipe-section .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.recipe-section h3 {
+  line-height: 58px;
+  font-weight: 600;
+  font-size: 48px;
+}
+.recipe-section .heading p {
+  color: var(--clr-ash);
+  max-width: 600px;
 }
 
 .product-container {
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 40px;
-  margin-bottom: 140px;
-  justify-content: center;
+  justify-content: space-between;
   justify-items: center;
 }
 .product {

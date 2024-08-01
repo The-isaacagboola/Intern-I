@@ -6,6 +6,7 @@ import chef from "../assets/Group 880.png";
 import InstagramSection from "../Components/InstagramSection.tsx";
 import SectionHeading from "../Components/sectionHeading.tsx";
 import RecipeSection from "../Components/RecipeSection.tsx";
+import NewsLetter from "../Components/NewsLetter.tsx";
 
 export default function Home() {
   const firstHeading = "Simple and tasty recipes";
@@ -14,6 +15,9 @@ export default function Home() {
 
   return (
     <div>
+      {/* style={{ maxWidth: "1440px", margin: "0 auto" }}
+      Depending on design preference, we could add this to the containing div above for the optimal look for wider screens
+      */}
       <HomeHero />
       <div className={homeStyles["padded-section"]}>
         <Categories />
@@ -36,9 +40,14 @@ export default function Home() {
           <img src={chef} alt="chef" />
         </div>
       </div>
+
       <InstagramSection />
 
-      <RecipeSection />
+      <div className={homeStyles["padded-section"]}>
+        <RecipeSection />
+
+        <NewsLetter />
+      </div>
     </div>
   );
 }

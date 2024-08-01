@@ -28,7 +28,7 @@
 .categories .category {
   position: relative;
   border-radius: 30px;
-
+  cursor: pointer;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;

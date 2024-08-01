@@ -74,7 +74,7 @@ const Products2: ProductItem[] = [
 export default function RecipeSection() {
   return (
     <div className={RecipeStyles["recipe-section"]}>
-      <div>
+      <div className={RecipeStyles.heading}>
         <h3>Try this delicious recipe to make your day</h3>
 
         <p>

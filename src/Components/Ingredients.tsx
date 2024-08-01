@@ -25,7 +25,10 @@ export default function Ingredients() {
         </div>
       </div>
 
-      <h1>Next</h1>
+      <div>
+        <h2>Other Recipe</h2>
+        <div></div>
+      </div>
     </div>
   );
 }

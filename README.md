@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# FOODIELAND. INTERNSHIP SUBMISSION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is the First Task in my internship with the Tobams Group , built using Vite, TypeScript, and React. It is based on a design provided in a Figma file.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js
+- npm or yarn
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+Follow these instructions to set up and run the project on your local machine.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/The-isaacagboola/Intern-I
+   cd Intern-I
+
+   ```
+
+2. **Start the development server:**
+   npm install or yarn install
+
+3. **Open the project in your browser:**
+   Navigate to http://localhost:3000 in your web browser to see the project in action.
+
+4. **Contributing**
+   Contributing
+   If you would like to contribute to this project, please follow these steps:
+
+5. Fork the repository.
+6. Create a new branch (git checkout -b feature/your-feature-name).
+7. Make your changes.
+8. Commit your changes (git commit -m 'Add some feature').
+9. Push to the branch (git push origin feature/your-feature-name).
+   Open a pull request.

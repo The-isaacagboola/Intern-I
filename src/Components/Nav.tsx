@@ -13,7 +13,7 @@ export default function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/recipes">Recipes</Link>
+            <Link to="/recipe">Recipes</Link>
           </li>
           <li>
             <Link to="/">Blog</Link>

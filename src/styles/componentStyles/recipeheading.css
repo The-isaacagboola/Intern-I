@@ -1,0 +1,61 @@
+.recipe > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recipe h1 {
+  font-weight: 600;
+  font-size: 64px;
+}
+.recipe .blocks {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+.recipe .blocks > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* border-right: 1px solid black; */
+}
+.recipe .blocks > div h2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.recipe .blocks > div h3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.recipe .blocks > div p {
+  color: var(--clr-ash);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.print {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.print .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: hsla(190, 92%, 95%, 1);
+}
+.print .align {
+  text-align: center;
+  cursor: pointer;
+}
+.print .align p {
+  font-weight: 500;
+}

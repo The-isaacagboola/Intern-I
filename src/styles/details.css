@@ -1,0 +1,129 @@
+.detail {
+  padding: 80px 80px 160px 80px;
+  font-family: var(--font-inter);
+}
+.grid-hero {
+  display: flex;
+  gap: 40px;
+  margin-top: 64px;
+  margin-bottom: 80px;
+}
+
+.grid-hero > img {
+  border-radius: 30px;
+}
+.grid-hero .nutrition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsla(190, 92%, 95%, 1);
+  padding: 32px;
+  border-radius: 30px;
+}
+.grid-hero .nutrition h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.grid-hero .nutrition .qty p {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+  color: var(--clr-ash);
+}
+.grid-hero .nutrition .qty p span {
+  color: black;
+}
+
+.grid-hero .nutrition p:last-child {
+  align-self: flex-end;
+}
+.grid-hero .nutrition .last {
+  text-align: center;
+  color: var(--clr-ash);
+}
+.grey-text {
+  color: var(--clr-ash);
+  margin-bottom: 80px;
+}
+
+/* INGREDIENRS AND RECIPE AREA */
+.grid-ingredients {
+  display: grid;
+  grid-template-columns: auto 450px;
+  gap: 40px;
+}
+.ingrid h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 48px;
+}
+.ingrid .choice {
+  font-size: 18px;
+}
+.ingrid .choice h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 33px;
+}
+.ingrid .choice.secondItem {
+  margin-top: 64px;
+}
+
+.ingrid .choice .padBox {
+  display: flex;
+  gap: 24px;
+  padding: 33px 0;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+.ingrid .choice .padBox input[type="checkbox"] {
+  width: 24px;
+  border-radius: 50%;
+  accent-color: black;
+}
+
+/* DIRECTIONS */
+.direction {
+  display: grid;
+  grid-template-columns: auto 450px;
+  gap: 40px;
+}
+.direction h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.items .i {
+  display: flex;
+  gap: 24px;
+  padding: 48px 0 48px 0;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+.items .i h3 {
+  margin-bottom: 24px;
+}
+.items .i .circle {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin: 0;
+}
+.items .i img {
+  margin: 48px 0;
+}
+.items .i p {
+  color: var(--clr-ash);
+}
+.news {
+  margin: 160px 0;
+}
+
+/* SUGGESTIONS */
+.suggestions h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}

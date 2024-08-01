@@ -4,12 +4,29 @@
 }
 .grid-hero {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
+  justify-content: space-between;
   margin-top: 64px;
   margin-bottom: 80px;
 }
+.grid-hero .img-div {
+  position: relative;
+}
 
-.grid-hero > img {
+.img-div svg {
+  position: absolute;
+  color: white;
+  z-index: 99;
+  bottom: 42%;
+  left: 45%;
+  opacity: 85%;
+}
+.img-div svg:hover {
+  cursor: pointer;
+  opacity: 96%;
+  transition: 0.3s ease-in;
+}
+.grid-hero .imgHero {
   border-radius: 30px;
 }
 .grid-hero .nutrition {
@@ -90,6 +107,7 @@
   display: grid;
   grid-template-columns: auto 450px;
   gap: 40px;
+  margin-top: 80px;
 }
 .direction h2 {
   font-size: 36px;
@@ -126,4 +144,37 @@
 .suggestions h1 {
   text-align: center;
   margin-bottom: 80px;
+}
+
+.others-container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.others-container .others-grid {
+  display: grid;
+  gap: 24px;
+}
+.others-container .others {
+  display: grid;
+  grid-template-columns: 180px auto;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 24px;
+  cursor: pointer;
+}
+.others-container > div {
+  margin-bottom: 80px;
+}
+.others h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.others-container .others img {
+  border-radius: 20px;
+}
+.others .graay {
+  color: var(--clr-ash);
 }

@@ -1,10 +1,13 @@
 import hero from "../assets/recipeHero.png";
-
+import { FaCirclePlay } from "react-icons/fa6";
 export default function RecipeDetails() {
   return (
     <div>
       <div className="grid-hero">
-        <img src={hero} alt="iktem image" />
+        <div className="img-div">
+          <img className="imgHero" src={hero} alt="iktem image" />
+          <FaCirclePlay size={100} />
+        </div>
 
         <div className="nutrition">
           <div>

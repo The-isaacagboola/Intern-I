@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr;
   border-radius: 30px;
   overflow: hidden;
+  position: relative;
 }
 .hero-section > img {
   width: 100%;
@@ -33,6 +34,13 @@
   justify-content: space-between;
   padding: 50px;
   background-color: var(--clr-green);
+}
+.hero-section .badge {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 45%;
+  top: 50px;
 }
 .hero-section .text-section > div:first-child {
   display: flex;

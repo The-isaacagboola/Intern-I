@@ -5,6 +5,7 @@ import fork from "../assets/ForkKnife.png";
 import userImg from "../assets/john.png";
 import { FaPlayCircle } from "react-icons/fa";
 import heroImage from "../assets/homeHero.png";
+import badge from "../assets/Badge.png";
 export default function HomeHero() {
   return (
     <div className={homeStyles["hero-container"]}>
@@ -51,7 +52,12 @@ export default function HomeHero() {
           </div>
         </div>
 
-        {/* <div> */}
+        <img
+          className={homeStyles["badge"]}
+          src={badge}
+          alt="authenticated badge"
+        />
+
         <img src={heroImage} alt="hero" />
       </div>
 

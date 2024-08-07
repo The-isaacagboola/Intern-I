@@ -103,6 +103,7 @@
   width: 24px;
   border-radius: 50%;
   accent-color: black;
+  cursor: pointer;
 }
 .ingrid .choice .padBox input[type="checkbox"]:checked ~ p {
   text-decoration: line-through;

@@ -11,7 +11,7 @@ type ProductProp = {
 };
 
 export default function Product({ item }: ProductProp) {
-  const { selectedItem, changeSelected } = CallGlobalContext();
+  const { changeSelected } = CallGlobalContext();
   const navigate = useNavigate();
 
   return (
@@ -19,7 +19,6 @@ export default function Product({ item }: ProductProp) {
       className={styles.product}
       onClick={() => {
         changeSelected(item);
-        console.log(selectedItem);
         navigate("/recipe");
       }}
     >

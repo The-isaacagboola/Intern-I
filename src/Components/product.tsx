@@ -3,15 +3,27 @@ import styles from "../styles/componentStyles/products.module.css";
 import timer from "../assets/Timer.png";
 import fork from "../assets/ForkKnife.png";
 import { MdFavorite } from "react-icons/md";
+import CallGlobalContext from "../context/context";
+import { useNavigate } from "react-router-dom";
 
 type ProductProp = {
   item: ProductItem;
 };
 
 export default function Product({ item }: ProductProp) {
+  const { selectedItem, changeSelected } = CallGlobalContext();
+  const navigate = useNavigate();
+
   return (
-    <div className={styles.product}>
-      <img src={item.image} alt="item -image" />
+    <div
+      className={styles.product}
+      onClick={() => {
+        changeSelected(item);
+        console.log(selectedItem);
+        navigate("/recipe");
+      }}
+    >
+      <img src={item.image} alt="item-image" />
       <div className={styles.favorite}>
         <MdFavorite size={24} />
       </div>

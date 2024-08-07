@@ -11,6 +11,7 @@
 }
 .grid-hero .img-div {
   position: relative;
+  width: 54%;
 }
 
 .img-div svg {
@@ -28,6 +29,7 @@
 }
 .grid-hero .imgHero {
   border-radius: 30px;
+  width: 100%;
 }
 .grid-hero .nutrition {
   display: flex;

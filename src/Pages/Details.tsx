@@ -5,13 +5,16 @@ import Ingredients from "../Components/Ingredients";
 import Directions from "../Components/Directions";
 import NewsLetter from "../Components/NewsLetter";
 import Suggestions from "../Components/Suggestions";
+import CallGlobalContext from "../context/context";
 
 export default function Details() {
+  const { selectedItem } = CallGlobalContext();
+
   return (
     <div className="detail">
-      <RecipeHeading />
+      <RecipeHeading name={selectedItem.name} />
 
-      <RecipeDetails />
+      <RecipeDetails image={selectedItem.image} />
 
       <Ingredients />
 

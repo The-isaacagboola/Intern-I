@@ -4,12 +4,16 @@ import fork from "../assets/ForkKnife.png";
 import print from "../assets/printer.png";
 import share from "../assets/share.png";
 import "../styles/componentStyles/recipeheading.css";
-export default function RecipeHeading() {
+
+type RecipeHeadingType = {
+  name: string;
+};
+export default function RecipeHeading({ name }: RecipeHeadingType) {
   return (
     <div className="recipe">
       <div>
         <div>
-          <h1>Health Japanese Fried Rice</h1>
+          <h1>{name}</h1>
           <div className="blocks">
             <div>
               <img src={user} alt="gohn" />

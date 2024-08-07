@@ -8,6 +8,7 @@ import veganLettuce from "../assets/Products/lettuce-wraps.png";
 import ramen from "../assets/Products/chicken-ramen.png";
 import RecipeItem from "./recipeItem";
 import RecipeStyles from "../styles/componentStyles/recipe.module.css";
+
 export type ProductItem = {
   id: number;
   name: string;

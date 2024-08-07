@@ -30,6 +30,7 @@
 .grid-hero .imgHero {
   border-radius: 30px;
   width: 100%;
+  height: 100%;
 }
 .grid-hero .nutrition {
   display: flex;

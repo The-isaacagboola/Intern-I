@@ -6,9 +6,16 @@ import Directions from "../Components/Directions";
 import NewsLetter from "../Components/NewsLetter";
 import Suggestions from "../Components/Suggestions";
 import CallGlobalContext from "../context/context";
+import { useEffect } from "react";
 
 export default function Details() {
   const { selectedItem } = CallGlobalContext();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
+  });
 
   return (
     <div className="detail">

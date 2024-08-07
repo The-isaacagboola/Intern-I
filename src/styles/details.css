@@ -104,6 +104,9 @@
   border-radius: 50%;
   accent-color: black;
 }
+.ingrid .choice .padBox input[type="checkbox"]:checked ~ p {
+  text-decoration: line-through;
+}
 
 /* DIRECTIONS */
 .direction {

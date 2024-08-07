@@ -14,6 +14,7 @@ export default function Details() {
   useEffect(() => {
     window.scrollTo({
       top: 0,
+      behavior: "smooth",
     });
   });
 

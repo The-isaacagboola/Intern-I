@@ -6,6 +6,8 @@
 .recipe h1 {
   font-weight: 600;
   font-size: 64px;
+  max-width: 1000px;
+  text-wrap: pretty;
 }
 .recipe .blocks {
   display: flex;
